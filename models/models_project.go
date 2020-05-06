@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/pledgecamp/pledgecamp-oracle/constants"
 	"github.com/symball/quick-gin/connect"
+	"github.com/symball/quick-gin/constants"
 )
 
 const (
