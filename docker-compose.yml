@@ -1,0 +1,12 @@
+version: '2'
+services:
+
+  postgresql:
+    image: postgres:11-alpine
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=development
+      - POSTGRES_USER=development
+      - POSTGRES_PASSWORD=development
+      
