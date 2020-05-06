@@ -1,6 +1,6 @@
 # Quick Gin
 
-This is a small Gin-gonic based project to be used as part of a coding challenge.
+This is a small Gin-gonic based project to be used as part of a coding challenge. Precompiled artifacts for both the [migration tool](https://github.com/golang-migrate/migrate) and project are provided in the root directory
 
 ## Quickstart
 
