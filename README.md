@@ -11,3 +11,14 @@ Run the `dev.sh` script. This will:
 * Fire up the postgresql support service
 * Run database migrations
 * Startup the gin service
+
+## Routes
+
+There are only two `GET` routes for this API
+
+`/` - A simple healthcheck
+`/projects` - Retrieves a JSON array of projects within the DB
+
+## Notes
+
+To run the unit tests, run `go test ./...`
